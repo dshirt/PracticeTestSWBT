@@ -6,8 +6,12 @@ public class Student {
     private String email;
 
     public Student(String name, String email) {
-        this.name = name;
-        this.email = email;
+        if(name == "" || email == "")
+            throw new IllegalArgumentException("Name or email cannot be null");
+        else {
+            this.name = name;
+            this.email = email;
+        }
     }
 
     public String getName() {
