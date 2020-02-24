@@ -32,7 +32,13 @@ public class TestStudentList {
         list.addStudentToList(student2);
         assertEquals(2, list.sizeOfList() );
     }
-    
 
+    @DisplayName("***********Testing search list ***********")
+    @Test
+    void testFindStudentInList(){
+        Student student1 = new Student("John", "john@gmit.ie");
+        list.addStudentToList(student1);
+        assertEquals(student1, list.findStudent("John") );
+    }
 
 }
