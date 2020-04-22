@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ie.gmit.TestStudent" time="0.114" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ie.gmit.TestStudent" time="0.12" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="IE"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\g00351835\AppData\Local\Temp\surefire8215308494805207362\surefirebooter5040267231337414117.jar C:\Users\g00351835\AppData\Local\Temp\surefire8215308494805207362 2020-02-24T10-52-02_081-jvmRun1 surefire1041156531680560550tmp surefire_03126566675988065283tmp"/>
+    <property name="sun.java.command" value="C:\Users\g00351835\AppData\Local\Temp\surefire5343101611774721813\surefirebooter8555952037251110832.jar C:\Users\g00351835\AppData\Local\Temp\surefire5343101611774721813 2020-03-02T09-04-54_453-jvmRun1 surefire8722056418639307863tmp surefire_06803912634230515946tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\g00351835\OneDrive - GMIT\practicetest\target\test-classes;C:\Users\g00351835\OneDrive - GMIT\practicetest\target\classes;C:\Users\g00351835\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\g00351835\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\g00351835\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\g00351835\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\g00351835\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\g00351835\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\g00351835"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\g00351835\AppData\Local\Temp\surefire8215308494805207362\surefirebooter5040267231337414117.jar;C:\\Users\\g00351835\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.5\\org.jacoco.agent-0.8.5-runtime.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\g00351835\AppData\Local\Temp\surefire5343101611774721813\surefirebooter8555952037251110832.jar;C:\\Users\\g00351835\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.5\\org.jacoco.agent-0.8.5-runtime.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,8 +61,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testConstructorNoEmail" classname="ie.gmit.TestStudent" time="0.058"/>
-  <testcase name="testConstructorNoName" classname="ie.gmit.TestStudent" time="0.002"/>
-  <testcase name="testConstructorStudentEmail" classname="ie.gmit.TestStudent" time="0.009"/>
-  <testcase name="testConstructorStudentName" classname="ie.gmit.TestStudent" time="0.001"/>
+  <testcase name="testConstructorNoEmail" classname="ie.gmit.TestStudent" time="0.07"/>
+  <testcase name="testConstructorNoName" classname="ie.gmit.TestStudent" time="0"/>
+  <testcase name="testConstructorStudentEmail" classname="ie.gmit.TestStudent" time="0"/>
+  <testcase name="testConstructorStudentName" classname="ie.gmit.TestStudent" time="0"/>
 </testsuite>

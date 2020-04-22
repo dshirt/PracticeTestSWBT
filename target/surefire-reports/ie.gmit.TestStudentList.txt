@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: ie.gmit.TestStudentList
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in ie.gmit.TestStudentList
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.03 s <<< FAILURE! - in ie.gmit.TestStudentList
+ie.gmit.TestStudentList.testFindStudentInList  Time elapsed: 0.01 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <ie.gmit.Student@70e0accd> but was: <ie.gmit.Student@7957dc72>
+	at ie.gmit.TestStudentList.testFindStudentInList(TestStudentList.java:41)
+

@@ -8,7 +8,8 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 public class TestStudent {
 /*
 OPEN FILE IN FILE EXPLORER->RIGHT CLICK->GIT BASH->GIT INIT
-VCS -> GIT->REMOTES*/
+VCS -> GIT->REMOTES
+git remote add origin <url> */
 
     Student student;
 

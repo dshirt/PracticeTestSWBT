@@ -18,15 +18,13 @@ public class StudentList {
        return studentList.size();
     }
 
-    public Student findStudent(String name){
-        Student newStudent = null;
-        for(Student student: studentList){
-            if(name.equalsIgnoreCase(student.getName())){
-                newStudent = new Student(student.getName(), student.getEmail());
-            }else
-                newStudent = new Student (null, null);
+    public Student findStudent(String name) {
+
+        for (Student student : studentList) {
+            if (name.equalsIgnoreCase(student.getName()))
+                return student;
         }
-        return newStudent;
+        return null;
     }
 }
 

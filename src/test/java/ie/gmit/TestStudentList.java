@@ -39,6 +39,7 @@ public class TestStudentList {
         Student student1 = new Student("John", "john@gmit.ie");
         list.addStudentToList(student1);
         assertEquals(student1, list.findStudent("John") );
+        assertEquals(null, list.findStudent("Michael") );
     }
 
 }
